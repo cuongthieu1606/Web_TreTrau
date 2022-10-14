@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>	
+</head>
+<body>	
+	<h1 id="result">result</h1>
+	<h2 class="header">This is a Header</h2>
+	<h2 class="header">This is another Header</h2>
+	<button onclick="clickOnButton();">CLick</button>
+	<script src="myscript.js">		
+	</script>
+	<script type="text/javascript">
+		function clickOnButton(){
+			var element = document.querySelector('#result');
+			element.style.color='red';
+			//
+			var arrElement = document.getElementsByClassName('header');
+			arrElement[0].style.color = 'blue';
+			arrElement[1].style.color = 'green';
+
+		}
+		function validateData(argument) {
+		
+		}
+
+	</script>
+</body>
+</html>

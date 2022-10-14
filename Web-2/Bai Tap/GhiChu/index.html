@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Hướng dẫn dễ sử dụng các ký tự đặc biệt trong HTML</h1>
+    <p>Các trang web bạn truy cập trực tuyến được xây dựng bằng cách sử dụng mã HTML cho trình duyệt web biết nội dung của trang là gì và cách hiển thị nội dung trực quan cho người xem. Mã chứa các khối xây dựng hướng dẫn được gọi là các phần tử mà trình xem trang web không bao giờ thấy. Mã này cũng chứa các ký tự văn bản thông thường như các ký tự trong dòng tiêu đề và các đoạn văn được thiết kế để người xem đọc.</p>
+    <h3>Vai trò của các ký tự đặc biệt trong HTML</h3>
+    <p>Khi bạn sử dụng HTML và nhập văn bản được thiết kế để xem, bạn thường không cần bất kỳ mã đặc biệt nào — bạn chỉ sử dụng bàn phím máy tính để thêm các chữ cái hoặc ký tự thích hợp. Một vấn đề nảy sinh khi bạn muốn nhập một ký tự trong văn bản có thể đọc được mà HTML sử dụng như một phần của chính mã đó. Các ký tự này bao gồm các ký tự được sử dụng trong mã để bắt đầu và kết thúc mọi thẻ HTML. Bạn cũng có thể muốn bao gồm các ký tự trong văn bản không có tương tự trực tiếp trên bàn phím, chẳng hạn như © và Ñ. Đối với các ký tự không có khóa trên bàn phím, bạn nhập mã.</p>
+    <p>Các ký tự đặc biệt là các đoạn mã HTML cụ thể được thiết kế để hiển thị các ký tự được sử dụng trong mã HTML hoặc để bao gồm các ký tự không được tìm thấy trên bàn phím trong văn bản mà người xem nhìn thấy. HTML hiển thị các ký tự đặc biệt này bằng mã hóa số hoặc ký tự để chúng có thể được bao gồm trong tài liệu HTML, được đọc bởi trình duyệt và được hiển thị đúng cho khách truy cập trang web của bạn xem.</p>
+    <h3>Các ký tự HTML đặc biệt</h3>
+    <p>Ba ký tự là cốt lõi của cú pháp của mã HTML. Bạn không bao giờ nên sử dụng chúng trong các phần có thể đọc được của trang web của bạn mà không cần mã hóa chúng trước để hiển thị thích hợp. Chúng là các ký hiệu lớn hơn, nhỏ hơn và ký hiệu. Nói cách khác, bạn không bao giờ nên sử dụng ký hiệu nhỏ hơn < trong mã HTML của bạn trừ khi nó là sự bắt đầu của một thẻ HTML. Nếu bạn làm như vậy, nhân vật sẽ nhầm lẫn giữa các trình duyệt và các trang của bạn có thể không hiển thị như bạn mong đợi. Ba ký tự bạn không bao giờ thêm chưa được mã hóa là:</p>
+    <ul>
+        <li>dấu nhỏ hơn <</li>
+        <li>dấu lớn hơn ></li>
+        <li>ký hiệu &</li>
+    </ul>
+    <p>Khi bạn nhập các ký tự này trực tiếp vào mã HTML của mình — trừ khi bạn đang sử dụng chúng làm các phần tử trong mã — hãy nhập mã hóa cho chúng, do đó chúng xuất hiện chính xác trong văn bản có thể đọc được:</p>
+    <ul>
+        <li>dấu nhỏ hơn - & lt;</li>
+        <li>dấu lớn hơn - & gt;</li>
+        <li>dấu và - & amp;</li>
+    </ul>
+    <p>Mỗi ký tự đặc biệt bắt đầu bằng dấu và — ngay cả ký tự đặc biệt cho ký hiệu và bắt đầu bằng ký tự này. Ký tự đặc biệt kết thúc bằng dấu chấm phẩy. Giữa hai ký tự này, bạn thêm bất kỳ thứ gì phù hợp cho ký tự đặc biệt bạn muốn thêm vào. lt ( ít hơn ) tạo ra ký hiệu nhỏ hơn khi nó xuất hiện giữa dấu và dấu chấm phẩy và trong dấu chấm phẩy. Tương tự, gt tạo ra biểu tượng lớn hơn và amp mang lại dấu và khi chúng được định vị giữa dấu và dấu chấm phẩy.</p>
+    <h3>Ký tự đặc biệt bạn không thể nhập</h3>
+    <p>Bất kỳ ký tự nào có thể được hiển thị trong bộ ký tự tiêu chuẩn Latin-1 đều có thể được hiển thị bằng HTML. Nếu nó không xuất hiện trên bàn phím của bạn, bạn sử dụng ký hiệu dấu và với mã duy nhất đã được gán cho ký tự theo sau dấu chấm phẩy.</p>
+    <p>Ví dụ: "mã thân thiện" cho biểu tượng bản quyền là & copy; và & trade ; là mã cho biểu tượng nhãn hiệu.</p>
+    <p>Mã thân thiện này rất dễ gõ và dễ nhớ, nhưng có rất nhiều ký tự không có mã thân thiện dễ nhớ.</p>
+    <p>Mỗi ký tự có thể được gõ trên màn hình có một mã số thập phân tương ứng. Bạn có thể sử dụng mã số này để hiển thị bất kỳ ký tự nào. Ví dụ: mã số thập phân cho biểu tượng bản quyền— & # 169; —demonstrates cách mã số hoạt động. Chúng vẫn bắt đầu bằng dấu và kết thúc bằng dấu chấm phẩy, nhưng thay vì văn bản thân thiện, bạn sử dụng ký hiệu số theo sau là mã số duy nhất cho ký tự đó.</p>
+    <p>Các mã thân thiện dễ nhớ nhưng các mã số thường đáng tin cậy hơn. Các trang web được xây dựng với cơ sở dữ liệu và XML có thể không có tất cả các mã thân thiện được xác định, nhưng chúng hỗ trợ mã số.
+
+        Cách tốt nhất để tìm mã số cho ký tự nằm trong bộ ký tự bạn có thể tìm thấy trực tuyến. Khi bạn tìm thấy biểu tượng bạn cần, chỉ cần sao chép và dán mã số vào HTML của bạn.</p>
+    <p>Một số bộ ký tự bao gồm:</p>
+    <ul>
+        <li>Mã tiền tệ</li>
+        <li>Mã toán học</li>
+        <li>Mã dấu chấm câu</li>
+        <li>Mã phát âm</li>
+        <li>Mã dấu phụ</li>
+    </ul>
+    <h3>Nhân vật ngôn ngữ không phải tiếng Anh</h3>
+    <p>Các ký tự đặc biệt không bị giới hạn bởi ngôn ngữ tiếng Anh. Các ký tự đặc biệt trong các ngôn ngữ không phải tiếng Anh có thể được thể hiện bằng HTML bao gồm:</p>
+    <ul>
+        <li><a href="https://vi.wikipedia.org/wiki/Ng%C6%B0%E1%BB%9Di_T%C3%A2y_Ban_Nha">người Tây Ban Nha</a></li>
+        <li><a href="https://vi.wikipedia.org/wiki/Ng%C6%B0%E1%BB%9Di_Ph%C3%A1p">người Pháp</a></li>
+        <li><a href="https://vi.wikipedia.org/wiki/Ng%C6%B0%E1%BB%9Di_Hy_L%E1%BA%A1p">người Hy Lạp</a></li>
+        <li><a href="https://vi.wikipedia.org/wiki/Ti%E1%BA%BFng_Rom%C3%A2nia">Tiếng Rumani</a></li>
+    </ul>
+    <p>Vậy mã thập lục phân là gì?</p>
+    <p>Mã thập lục phân là một định dạng thay thế để hiển thị các ký tự đặc biệt trong mã HTML. Bạn có thể sử dụng phương pháp nào bạn muốn cho trang web của mình. Bạn tìm kiếm chúng trong bộ ký tự trực tuyến và sử dụng chúng giống như cách bạn sử dụng mã thân thiện hoặc mã số.</p>
+    <h3>Thêm khai báo Unicode vào đầu tài liệu của bạn</h3>
+    <p>Thêm thẻ meta sau vào bất kỳ đâu bên trong của trang web của bạn để đảm bảo rằng các ký tự đặc biệt của bạn hiển thị chính xác.</p>
+    <h3>Lời khuyên</h3>
+    <p>Bất kể bạn sử dụng phương pháp nào, hãy lưu ý một số phương pháp hay nhất:</p>
+    <ul>
+        <li>
+            <h2>Luôn kết thúc thực thể của bạn bằng dấu chấm phẩy.</h2>
+            <p>Một số trình chỉnh sửa HTML cho phép bạn đăng các mã HTML mà không có dấu chấm phẩy cuối cùng, nhưng các trang của bạn sẽ không hợp lệ và nhiều trình duyệt web sẽ không hiển thị chính xác các thực thể mà không có nó.</p>
+
+        </li>
+        <li>
+            <h2>Luôn bắt đầu bằng dấu và.</h2>
+            <p>Nhiều trình chỉnh sửa web cho phép bạn thoát khỏi việc bỏ qua "amp;" nhưng khi bạn hiển thị một ký tự và một mình trong XHTML, nó sẽ gây ra lỗi xác thực.</p>
+        </li>
+        <li>
+            <h2>Kiểm tra các trang của bạn trong nhiều trình duyệt nhất có thể.</h2>
+            <p>Nếu nhân vật là rất quan trọng để hiểu tài liệu của bạn và bạn không thể kiểm tra nó trong các kết hợp trình duyệt / hệ điều hành mà khách hàng của bạn sử dụng, bạn nên tìm một cách khác để đại diện cho nó. Tuy nhiên, trước khi bạn sử dụng hình ảnh hoặc một thứ khác, hãy thử một trong các công cụ kiểm tra trình duyệt có thể xác thực mã của bạn trong nhiều trình duyệt.</p>
+        </li>
+    </ul>
+</body>
+</html>

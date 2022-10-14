@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+	<button id="btnSubmit" onclick="calculator()">Submit products</button>
+
+	<p id="demo"></p>
+
+	<script>
+		function myDisplayer(some) {
+			document.getElementById("demo").innerHTML = some;
+		}
+//tinh toan va hien thi ket qua tong tien cua gio hang
+		function myFirst(callback) {
+			myDisplayer("get data from the database...waiting response");
+			setTimeout(function(){
+				callback("Amout: 1.500.000");
+			},5000);
+		}
+
+		function mySecond(msg) {
+			myDisplayer(msg);
+		}
+
+		function calculator(){
+			myFirst(mySecond);
+		}		
+		// mySecond();
+	</script>
+
+</body>
+</html>

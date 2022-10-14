@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- ======== Favicon ======= -->
+    <link rel="shortcut icon" href="" type="image/x-icon" />
+    <!-- ======== Boxicons ======= -->
+    <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+    <!-- ======== Swiper Js ======= -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/7.0.0-alpha.38/swiper-bundle.min.css" />
+
+    <!-- ======== StyleSheet ======= -->
+    <link rel="stylesheet" href="./css/styles.css" />
+    <title>Travel Website</title>
+  </head>
+  <body>
+
+    <!-- Header -->
+    <header class="header" id="header">
+      <!-- Navigation -->
+      <div class="navigation">
+        <nav class="nav d-flex">
+          <div class="logo">
+            <a href="/">
+              <img src="./images/logo.png" alt="">
+            </a>
+          </div>
+
+          <ul class="nav-list d-flex open">
+            <li class="nav-item"><a href="#header" class="nav-link">Home</a></li>
+            <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+            <li class="nav-item"><a href="#service" class="nav-link">Service</a></li>
+            <li class="nav-item"><a href="#trips" class="nav-link">Trips</a></li>
+            <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+          </ul>
+
+          <a href="#" class="btn sign-up">Sign Up</a>
+
+          <div class="hamburger">
+            <i class='bx bx-menu-alt-left'></i>
+          </div>
+        </nav>
+      </div>
+
+
+      <!-- Hero -->
+      <!-- Swiper -->
+    <div class="swiper-container slider-1">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <img src="./images/pic-1.jpg" alt="">
+        </div>
+        <div class="swiper-slide">
+          <img src="./images/pic-5.jpg" alt="">
+        </div>
+        <div class="swiper-slide">
+          <video muted loop autoplay>
+            <source src="./images/video-2.mp4" type="video/mp4" />
+            <source src="./images/video-2.webm" type="video/webm"/>
+          </video>
+        </div>
+        <div class="swiper-slide">
+          <img src="./images/pic-6.jpg" alt="">
+        </div>
+        <div class="swiper-slide">
+          <video muted loop autoplay>
+            <source src="./images/video-3.mp4" type="video/mp4" />
+            <source src="./images/video-3.webm" type="video/webm"/>
+          </video>
+        </div>
+        <div class="swiper-slide">
+          <img src="./images/hero-3.jpg" alt="">
+        </div>
+      </div>
+    </div>
+
+    <!-- Content -->
+    <div class="content">
+      <h1>
+        Welcome to Thieu Tran Cuong Group <br> The starting place of all trips
+      </h1>
+
+      <a href="" class="btn">Get Started</a>
+    </div>
+
+    <div class="arrows d-flex">
+      <div class="swiper-prev d-flex">
+        <i class='bx bx-chevron-left swiper-icon'></i>
+      </div>
+
+      <div class="swiper-next d-flex">
+        <i class='bx bx-chevron-right swiper-icon'></i>
+      </div>
+    </div>
+    </header>
+
+    <!-- Main -->
+    <main>
+      <!-- About -->
+      <section class="section about" id="about">
+        <div class="row container">
+          <div class="col">
+            <div class="title">
+              <h1>About Us</h1>
+            </div>
+            <p>The North Pole of Ha Giang is one of the most attractive highland tourist destinations 
+              in Vietnam with the beauty of majestic nature, the innocence of children or the bright eyes 
+              of the old people all bring many benefits.
+            </p>
+            <a href="" class="btn">Know more</a>
+          </div>
+
+          <div class="col">
+            <div class="swiper-container slider-2">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <img src="./images/pic-5.jpg" alt=""/>
+                </div>
+                <div class="swiper-slide">
+                  <video muted loop autoplay>
+                    <source src="./images/video-3.mp4" type="video/mp4" />
+                    <source src="./images/video-3.webm" type="video/webm"/>
+                  </video>
+                </div>
+                <div class="swiper-slide">
+                  <img src="./images/hero-3.jpg" alt=""/>
+                </div>
+              <div>
+              <div class="swiper-button-prev d-flex">
+                <i class='bx bx-chevron-left swiper-icon'></i>
+              </div>
+        
+              <div class="swiper-button-next d-flex">
+                <i class='bx bx-chevron-right swiper-icon'></i>
+              </div>
+          </div>
+        </div>
+      </div>
+      </section>
+
+      <!-- Service -->
+    </main>
+
+    <!-- ======== SwiperJS ======= -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/7.0.0-alpha.38/swiper-bundle.min.js"></script>
+    <!-- ======== SCROLL REVEAL ======= -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/scrollReveal.js/4.0.9/scrollreveal.min.js"></script>
+    <!-- ======== SliderJS ======= -->
+    <script src="./js/slider.js"></script>
+    <!-- ======== IndexJS ======= -->
+    <script src="./js/index.js"></script>
+  </body>
+</html>
+

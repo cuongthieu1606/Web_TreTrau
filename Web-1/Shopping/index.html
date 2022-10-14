@@ -1,0 +1,607 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/styles.css">
+    <!--light-slider-files-->
+<link rel="stylesheet" href="css/lightslider.css">
+<!--js-link--------------------->
+<script src="js/Jquery.js"></script>
+<script src="js/lightslider.js"></script>
+     <!--using FontAwesome--------------->
+    <script crossorigin="anonymous" src="https://kit.fontawesome.com/c8e4d183c2.js"></script>
+    
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+    <title>Laptop-TTC</title>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav> 
+           <!--social-links-and-phone-number----------------->
+    <div class="social-call">
+        <!--social-links--->
+        <div class="social">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-youtube"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+        </div>
+        <!--phone-number------>
+        <div class="phone">
+            <span>Call: +123456789</span>
+        </div>
+    </div>
+    <!--menu-bar----------------------------------------->
+    <div class="navigation">
+        <!--logo------------>
+        <a href="#" class="logo"><img src="image/logo.png"></a>
+        <!--menu-icon------------->
+        <div class="toggle"></div>
+        <!--menu----------------->
+        <ul class="menu">
+            <li><a href="#">Home</a></li>
+            <li  class="shop"><a href="#" >Shop</a></li>
+            <li><a href="#">Laptop</a>
+                <!--lable---->
+                <span class="sale-lable">Sale</span>
+            </li>
+            <li><a href="#">Technology</a></li>
+            <li><a href="#">Kids</a></li>
+        </ul>
+        <!--right-menu----------->
+        <div class="right-menu">
+            <a href="javascript:void(0);" class="search">
+                <i class="fas fa-search"></i>
+            </a>
+            <a href="javascript:void(0);" class="user">
+                <i class="far fa-user"></i>
+            </a>
+            <a href="#">
+                <i class="fas fa-shopping-cart">
+                    <span class="num-cart-product">0</span>
+                </i>
+            </a>
+        </div>
+        </div>
+    </nav>
+
+    <!-- search-bar -->
+    <!--search-bar----------------------------------->
+    <div class="search-bar">
+    
+        <!--search-input------->
+        <div class="search-input">
+        <input type="text" placeholder="Search For Product" name="search" />
+        <!--cancel-btn--->
+        <a href="javascript:void(0);" class="search-cancel">
+            <i class="fas fa-times"></i>
+        </a>
+    
+    </div>
+    </div>
+
+    <!-- login-and-sign-up -->
+    <div class="form">
+        <!--cancel-btn---------------->
+        <a href="javascript:void(0);" class="form-cancel">
+            <i class="fas fa-times"></i>
+        </a>
+
+        <!-- login -->
+        <div class="login-form">
+            <!-- heading -->
+            <strong>Log In</strong>
+            <!-- inputs -->
+            <form>
+                <input type="email" placeholder="Example@gmail.com" name="email">
+                <input type="password" placeholder="Password" name="password">
+                <input type="submit" value="Log In"/>
+            </form>
+
+            <!-- forget-and-sign-up-btn -->
+            <div class="form-btns">
+                <a href="#" class="forget">Forget Your Password?</a>
+                <a href="javascript:void(0);" class="sign-up-btn">Create Account</a>
+            </div>
+
+        </div>
+
+        <!--Sign-up---------->
+        <div class="sign-up-form">
+            <!--cancel-btn---------------->
+        <a href="javascript:void(0);" class="form-cancel">
+            <i class="fas fa-times"></i>
+        </a>
+            <strong>Sign Up</strong>
+            <!--inputs-->
+            <form>
+                <input type="text" name="fullname" placeholder="Full Name" required/>
+                <input type="email" name="email" placeholder="Example@gmail.com" required/>
+                <input type="password" name="password" placeholder="Password" required/>
+                <input type="submit" value="Sign Up"/>
+            </form>
+            <!--forget-and-sign-up-btn-->
+            <div class="form-btns">
+                <a href="javascript:void(0);" class="already-account">
+                    Already Have Account?</a>
+
+            </div>
+        </div>
+    </div>
+
+
+    <div class="swiper mySwiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">Slide 1</div>
+        <div class="swiper-slide">Slide 2</div>
+        <div class="swiper-slide">Slide 3</div>
+        <div class="swiper-slide">Slide 4</div>
+      </div>
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-pagination"></div>
+    </div>
+
+    <!-- Full slider -->
+    <!-----------full-slider----------------------------->
+    <!-- <ul id="adaptive" class="cs-hidden">
+        
+     
+      <li class="item-a">
+         
+  <div class="full-slider-box f-slide-1">
+      
+      <div class="f-slider-text-container">
+      <div class="f-slider-text">
+          <span>Laptop Offer</span>
+          <strong>30% Off<br/> With <font>Promo Code</font></strong>
+          <a href="#" class="f-slider-btn">Shop Now</a>
+      </div>
+      </div>
+  
+  </div>
+  </li>
+  
+      <li class="item-b">
+    
+  <div class="full-slider-box f-slide-2">
+      
+      <div class="f-slider-text-container">
+      <div class="f-slider-text">
+          <span>Laptop Offer</span>
+          <strong>30% Off<br/> With <font>Promo Code</font></strong>
+          <a href="#" class="f-slider-btn">Shop Now</a>
+      </div>
+      </div>
+  
+  </div>
+  </li>
+      
+       <li class="item-c">
+     
+  <div class="full-slider-box f-slide-3">
+      
+      <div class="f-slider-text-container">
+      <div class="f-slider-text">
+          <span>Laptop Offer</span>
+          <strong>30% Off<br/> With <font>Promo Code</font></strong>
+          <a href="#" class="f-slider-btn">Shop Now</a>
+      </div>
+      </div>
+  
+  </div>
+  </li>
+   
+  </ul> -->
+
+    <!--product-categories-slider---------------------->
+    <ul id="autoWidth" class="container" class="cs-hidden">
+        <!--box-1--------------------->
+        <li class="item">
+            <div class="feature-box">
+                <a href="#">
+                    <img src="image/img1.jfif">
+                </a>
+            </div>
+            <span>Luxurious</span>
+        </li>
+        <!--box-2--------------------->
+        <li class="item">
+            <div class="feature-box">
+                <a href="#">
+                    <img src="image/img2.jfif">
+                </a>
+            </div>
+            <span>Design</span>
+        </li>
+        <!--box-3--------------------->
+        <li class="item">
+            <div class="feature-box">
+                <a href="#">
+                    <img src="image/img3.jfif">
+                </a>
+            </div>
+            <span>Enduring</span>
+        </li>
+        <!--box-4--------------------->
+        <li class="item">
+            <div class="feature-box">
+                <a href="#">
+                    <img src="image/img4.jfif">
+                </a>
+            </div>
+            <span>Strong</span>
+        </li>
+        <!--box-5--------------------->
+        <li class="item">
+            <div class="feature-box">
+                <a href="#">
+                    <img src="image/img5.jfif">
+                </a>
+            </div>
+            <span>Technology</span>
+        </li>
+        <!--box-6--------------------->
+        <li class="item">
+            <div class="feature-box">
+                <a href="#">
+                    <img src="image/img6.jfif">
+                </a>
+            </div>
+            <span>Wonderful</span>
+        </li>
+        
+      </ul>
+
+    <!--NEW ARRIVAL-------------------------------->
+    <section class="new-arrival">
+            
+        <!--heading-------->
+        <div class="arrival-heading">
+            <strong>New Arrival</strong>
+            <p>We Provide You New Fasion Design Clothes</p>
+        </div>
+          <!--products----------------------->
+          <div class="product-container">
+              
+            <!--product-box-1---------->
+              <div class="product-box">
+                  <!--product-img------------>
+                  <div class="product-img">
+                      <!--add-cart---->
+                      <a href="#" class="add-cart">
+                          <i class="fas fa-shopping-cart"></i>
+                        </a>
+                      <!--img------>
+                    <img src="image/product2.jpg">
+                  </div>
+                  <!--product-details-------->
+                  <div class="product-details">
+                      <a href="#" class="p-name">
+                        Acer Nitro 5 Gaming AN515 11400H
+                    </a>
+                      <span class="p-price">$22.00</span>
+                  </div>
+              </div>
+                <!--product-box-2---------->
+                <div class="product-box">
+                    <!--product-img------------>
+                    <div class="product-img">
+                        <!--add-cart---->
+                      <a href="#" class="add-cart"><i class="fas fa-shopping-cart"></i></a>
+                      <!--img------>
+                      <img src="image/product1.jpg">
+                    </div>
+                    <!--product-details-------->
+                    <div class="product-details">
+                        <a href="#" class="p-name">
+                          Asus ZenBook UX425EA i5 1135G7
+                      </a>
+                        <span class="p-price">$22.00</span>
+                    </div>
+                </div>
+              <!--product-box-3---------->
+              <div class="product-box">
+                <!--product-img------------>
+                <div class="product-img">
+                    <!--add-cart---->
+                    <a href="#" class="add-cart"><i class="fas fa-shopping-cart"></i></a>
+                    <!--img------>
+                  <img src="image/product3.jpg">
+                </div>
+                <!--product-details-------->
+                <div class="product-details">
+                    <a href="#" class="p-name">
+                      Lenovo ThinkBook 15 G2 ITL i5 1135G7
+                  </a>
+                    <span class="p-price">$22.00</span>
+                </div>
+            </div>
+              <!--product-box-4---------->
+              <div class="product-box">
+                <!--product-img------------>
+                <div class="product-img">
+                    <!--add-cart---->
+                    <a href="#" class="add-cart"><i class="fas fa-shopping-cart"></i></a>
+                    <!--img------>
+                  <img src="image/product4.jpg">
+                </div>
+                <!--product-details-------->
+                <div class="product-details">
+                    <a href="#" class="p-name">
+                      Dell Gaming G3 15 i7 10750H
+                  </a>
+                    <span class="p-price">$22.00</span>
+                </div>
+            </div>
+              <!--product-box-5---------->
+              <div class="product-box">
+                <!--product-img------------>
+                <div class="product-img">
+                    <!--add-cart---->
+                    <a href="#" class="add-cart"><i class="fas fa-shopping-cart"></i></a>
+                    <!--img------>
+                  <img src="image/product5.jpg">
+                </div>
+                <!--product-details-------->
+                <div class="product-details">
+                    <a href="#" class="p-name">
+                      HP Envy 13 ba1030TU i7 1165G7
+                  </a>
+                    <span class="p-price">$22.00</span>
+                </div>
+            </div>
+              <!--product-box-6---------->
+              <div class="product-box">
+                <!--product-img------------>
+                <div class="product-img">
+                    <!--add-cart---->
+                    <a href="#" class="add-cart"><i class="fas fa-shopping-cart"></i></a>
+                    <!--img------>
+                  <img src="image/product6.jpg">
+                </div>
+                <!--product-details-------->
+                <div class="product-details">
+                    <a href="#" class="p-name">
+                        Dell Gaming G3 15 i7 10750H 
+                    </a>
+                    <span class="p-price">$22.00</span>
+                </div>
+            </div>
+              <!--product-box-7---------->
+              <div class="product-box">
+                <!--product-img------------>
+                <div class="product-img">
+                    <!--add-cart---->
+                    <a href="#" class="add-cart"><i class="fas fa-shopping-cart"></i></a>
+                    <!--img------>
+                  <img src="image/product7.jpg">
+                </div>
+                <!--product-details-------->
+                <div class="product-details">
+                    <a href="#" class="p-name">
+                        Dell Inspiron 7400 i5 1135G7 (N4I5134W)
+                    </a>
+                    <span class="p-price">$22.00</span>
+                </div>
+            </div>
+              <!--product-box-8---------->
+              <div class="product-box">
+                <!--product-img------------>
+                <div class="product-img">
+                    <!--add-cart---->
+                    <a href="#" class="add-cart">
+                        <i class="fas fa-shopping-cart"></i>
+                    </a>
+                    <!--img------>
+                  <img src="image/product8.jpg">
+                </div>
+                <!--product-details-------->
+                <div class="product-details">
+                    <a href="#" class="p-name">
+                        MacBook Pro M1 2020
+                    </a>
+                    <span class="p-price">$22.00</span>
+                </div>
+            </div>
+          </div>
+      </section>
+
+     <!---sale------------------------------------>
+     <section class="sale">
+        <!--sale-box-1-------------------->
+        <div class="sale-box sale-1">
+            <img src="image/img3.jfif">
+            
+            <a href="#">
+            <div class="sale-text">
+              <strong>Bag with rose pattern</strong>
+              <span>Sale off 25%</span>
+            </div></a>
+        
+          </div>
+           <!--sale-box-2-------------------->
+        <div class="sale-box sale-1">
+          <img src="image/img2.jfif">
+          
+          <a href="#"><div class="sale-text">
+            <strong>Hello Summer</strong>
+            <span>Sale off 20%</span>
+          </div></a>
+      
+        </div>
+         <!--sale-box-3-------------------->
+         <div class="sale-box sale-1">
+          <img src="image/img3.jfif">
+          
+          <a href="#">
+          <div class="sale-text">
+            <strong>Let's Party Hard Pillow</strong>
+            <span>Sale off 25%</span>
+          </div></a>
+      
+        </div>
+     
+    </section>
+
+    <!--Feature-items-------------------------------->
+    <section class="feature-item">
+            
+        <!--heading-------->
+        <div class="feature-heading">
+        <strong>Featured Items</strong>
+        <p>We Provide You New Fasion Design Clothes</p>
+            </div>
+          <!--products----------------------->
+          <div class="product-container">
+              
+            <!--product-box-1---------->
+              <div class="product-box">
+                  <!--product-img------------>
+                  <div class="product-img">
+                      <!--add-cart---->
+                      <a href="#" class="add-cart"><i class="fas fa-shopping-cart"></i></a>
+                      <!--img------>
+                    <img src="image/product12.jpg">
+                  </div>
+                  <!--product-details-------->
+                  <div class="product-details">
+                      <a href="#" class="p-name">Laptop Dell XPS 13 9310 i7 1165G7</a>
+                      <span class="p-price">$22.00</span>
+                  </div>
+              </div>
+                <!--product-box-2---------->
+                <div class="product-box">
+                    <!--product-img------------>
+                    <div class="product-img">
+                        <!--add-cart---->
+                      <a href="#" class="add-cart"><i class="fas fa-shopping-cart"></i></a>
+                      <!--img------>
+                      <img src="image/product13.jpg">
+                    </div>
+                    <!--product-details-------->
+                    <div class="product-details">
+                        <a href="#" class="p-name">
+                            LG Gram 16 2021 i7 1165G7
+                        </a>
+                        <span class="p-price">$22.00</span>
+                    </div>
+                </div>
+              <!--product-box-3---------->
+              <div class="product-box">
+                <!--product-img------------>
+                <div class="product-img">
+                    <!--add-cart---->
+                    <a href="#" class="add-cart"><i class="fas fa-shopping-cart"></i></a>
+                    <!--img------>
+                  <img src="image/product14.jpg">
+                </div>
+                <!--product-details-------->
+                <div class="product-details">
+                    <a href="#" class="p-name">
+                        Lenovo Yoga 9 14ITL5 i7/1185G7 
+                    </a>
+                    <span class="p-price">$22.00</span>
+                </div>
+            </div>
+             <!--product-box-4---------->
+             <div class="product-box">
+                <!--product-img------------>
+                <div class="product-img">
+                    <!--add-cart---->
+                    <a href="#" class="add-cart"><i class="fas fa-shopping-cart"></i></a>
+                    <!--img------>
+                  <img src="image/product15.jpg">
+                </div>
+                <!--product-details-------->
+                <div class="product-details">
+                    <a href="#" class="p-name">
+                        LG Gram 17 2021 i7 1165G7
+                    </a>
+                    <span class="p-price">$22.00</span>
+                </div>
+            </div>
+              
+                </div>
+                </section>
+
+
+
+
+    <!--banner-->
+    <div class="banner-box f-slide-3">
+        
+        <div class="banner-text-container">
+        <div class="banner-text">
+            <span>Limited Offer</span>
+            <strong>30% Off<br/> With <font>Promo Code</font></strong>
+            <a href="#" class="banner-btn">Shop Now</a>
+        </div>
+        </div>
+    
+    </div> 
+
+
+    <!--services------------------------->
+    <section class="services">
+        <!--services-box---------->
+        <div class="services-box">
+            <i class="fas fa-shipping-fast"></i>
+            <span>Free Shipping</span>
+            <p>Free Shipping for all US order</p>
+        </div>
+        <!--services-box---------->
+        <div class="services-box">
+            <i class="fas fa-headphones-alt"></i>
+            <span>Support 24/7</span>
+            <p>We support 24h a day</p>
+        </div>
+        <!--services-box---------->
+        <div class="services-box">
+            <i class="fas fa-sync"></i>
+            <span>100% Money Back</span>
+            <p>You have 30 days to Return</p>
+        </div>
+        
+    </section>
+    <!--footer---------------------------->
+    <footer>
+        <!--copyright-------------->
+        <span class="copyright">
+            Copyright 2020 - GoingToInternet
+        </span>
+        <!--subcribe---------------->
+        <div class="subscribe">
+            <form>
+            <input type="email" placeholder="Example@gmail.com" required/>
+            <input type="submit" value="Subscribe">
+            </form>
+        </div>
+    </footer>
+
+
+
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+    slidesPerView: 1,
+    spaceBetween: 30,
+    loop: true,
+    pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+},
+    navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+    },
+});
+    </script>
+</body>
+</html>

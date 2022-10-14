@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Event in JS</title>	
+</head>
+<body>
+	Enter your name: <input type="text" name="name" id="yourname" onchange="changeInputName()" ><br>
+	<button id="btnSubmit">Submit</button>
+
+
+
+	<script type="text/javascript">
+		// add event for button
+		var btn = document.getElementById("btnSubmit");		
+		btn.addEventListener("click", function(){
+			showMessage('64CS1');
+		});
+		// btn.addEventListener("mouseover",showMessage('Xin chao 64CS1'));
+//cach 3: gan su kien
+		// btn.onclick = function(){
+		// 	showAlert();
+		// }
+
+
+
+
+		function changeInputName () {
+			var yourname = document.getElementById("yourname");
+			yourname.value = yourname.value.toUpperCase();
+			console.log(yourname.value);
+		}
+		function showAlert(){
+			alert("This is a message show when the button click");
+		}
+		function showMessage(msg){
+			alert(msg);
+		}
+	</script>
+</body>
+</html>

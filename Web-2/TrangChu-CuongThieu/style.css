@@ -1,0 +1,108 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Roboto",sans-serif;
+}
+.container {
+    width: 980px;
+    margin: 0 auto;
+
+
+}
+header {
+    width: 980px;
+    height: 100px;
+    background: #CB7802;
+
+}
+
+header  img {
+    padding-left: 30px;
+}
+
+nav {
+    height: 35px;
+    background: #272f54;
+    color: #fff;
+    margin-bottom: 5px;
+
+}
+
+nav .menu ul {
+    list-style: none;
+    
+}
+nav .menu ul li {
+    float: left;
+    line-height: 35px;
+    padding: 0 15px;
+}
+
+nav .menu ul li a {
+    
+    font-size: 14px;
+    text-decoration: none;
+
+}
+
+
+nav .search {
+    line-height: 35px;
+    float: left;
+    margin-left: 170px;
+   
+
+}
+
+article h3 {
+    text-align: center;
+    color: #272f54;
+    padding: 15px 0;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+
+}
+
+article .new_list .new_item {
+    width: 28%;
+    padding: 12px;
+    float: left;
+    
+    border: 1px solid #ccc;
+    margin-right: 4%;
+   
+
+    
+
+
+}
+#fix {
+    margin-right: 0;
+}
+
+article .new_list .new_item h4 {
+    color: #ad3f00;
+    font-size: 16px;
+
+}
+
+article .new_list .new_item img {
+    margin: 10px auto;
+
+}
+article .new_list .new_item .content {
+    font-size: 13px;
+}
+
+footer {
+    margin-bottom: 40px;
+    background: #272f54;
+    line-height: 40px;
+    text-align: center;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    clear: both;
+
+}

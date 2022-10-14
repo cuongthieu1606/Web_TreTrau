@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>This is a form</title>
+</head>
+<body>
+	<form>
+		<h4>Text input</h4>
+		Name: <input type="text" name="user_name"  value="e.g.meher21" maxlength="30"><br>
+		Password: <input type="Password" name="user_pass"><br>
+		<h4>Radio button: name should be same</h4>
+		<input type="Radio" name="r_gender">Male
+		<input type="Radio" name="r_gender" checked="">Female
+		<h4>Check box: name should be different</h4>
+		<input type="checkbox" name="c_male" checked>Male
+		<input type="checkbox" name="c_female">Female
+		<input type="checkbox" name="c_infant">Infant
+		<h4>Select box: drop-down</h4>
+		<select name="s_box">
+			<option value="HN">Hà Nội</option>
+			<option value="s_female" selected="">Female</option>
+		</select>
+		<h4>Select box: scroll</h4>
+		<select name="s_box" size="4" multiple>
+			<option value="s_male">Male</option>
+			<option value="s_female" selected>Female</option>
+		</select>
+		<h4>Text area</h4>
+		<textarea rows="10" cols="80" name="txt_area">Initial</textarea>
+	</form>
+
+</body>
+</html>
